@@ -6,7 +6,7 @@ Este repositorio contiene un sistema de recomendación utilizando la descomposic
 
 1. Clona este repositorio a tu máquina local.
 2. Asegúrate de tener instaladas las librerías necesarias (como pandas, numpy, scikit-learn, etc.).
-3. Descarga el dataset '
+3. Descarga el dataset 'dataset.zip'
 4. Ejecuta los scripts de Python para ver los resultados y las predicciones de calificación.
 
 ## Resultados
