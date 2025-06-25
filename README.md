@@ -6,8 +6,10 @@ Este repositorio contiene un sistema de recomendación utilizando la descomposic
 
 1. Clona este repositorio a tu máquina local.
 2. Asegúrate de tener instaladas las librerías necesarias (como pandas, numpy, scikit-learn, etc.).
-3. Ejecuta los scripts de Python para ver los resultados y las predicciones de calificación.
+3. Descarga el dataset '
+4. Ejecuta los scripts de Python para ver los resultados y las predicciones de calificación.
 
 ## Resultados
+La matriz reconstruida obtenida de la descomposición muestra una aproximación de las calificaciones que los usuarios podrían asignar a las películas que no calificaron originalmente. Por ejemplo, el valor predicho para la calificación del usuario 4 para la película 1 es 20490.475165297998, lo que sugiere que el modelo ha estimado una calificación muy alta para esa película, basándose en las relaciones latentes que se descubren mediante SVD
 
-El modelo fue evaluado utilizando métricas como **RMSE** y **MAE** para determinar su efectividad en la predicción de calificaciones de usuarios.
+En resumen, al aplicar SVD con 300 componentes, hemos logrado reducir la dimensionalidad de los datos y al mismo tiempo realizar predicciones útiles sobre las calificaciones faltantes, lo que es fundamental para los sistemas de recomendación.
